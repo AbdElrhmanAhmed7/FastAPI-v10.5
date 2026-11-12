@@ -1,0 +1,11 @@
+# Repository-root ignores (per-service ignores live next to each service).
+
+# Reproducible payload-capture dumps – see reference/scratch/README.md
+reference/scratch/payloads*.json
+reference/scratch/*.db
+
+# Local environment / editor noise
+.env
+.DS_Store
+.vscode/
+.idea/
